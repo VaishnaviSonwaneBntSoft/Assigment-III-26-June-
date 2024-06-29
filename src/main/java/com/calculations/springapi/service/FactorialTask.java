@@ -19,12 +19,10 @@ public class FactorialTask implements Runnable{
     @Override
     public void run() {
         log.info("Calculating Factorial of {}",number);
-        int factorial=1;
-        while(number>0)
+        int factorial=1 , i=1;
+        while(i<=number)
         {
-            int remender = number%10;
-            factorial *= remender;
-            number = number/10;
+            factorial = factorial*i;
         }
         result=factorial;
         log.info("Factorial of {} is {}", number,result);
