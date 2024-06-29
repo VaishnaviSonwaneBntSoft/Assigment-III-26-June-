@@ -43,7 +43,7 @@ This project implements a Spring-based API for performing various mathematical c
    
 2. **Access the API:**
 
-   The API will be accessible at http://localhost:8080/api/calculator.
+   The API will be accessible at ```bash http://localhost:8080/api/calculator. ```
 
  ###  API Endpoints
 
@@ -56,9 +56,9 @@ This project implements a Spring-based API for performing various mathematical c
  **Sample Request**
  ```bash
 localhost:{portNumber}/api/calculator/calculate/10
-
+```
 **Sample Response**
-
+```bash
 {
   "Square": 100,
   "Cube": 1000,
@@ -69,7 +69,7 @@ localhost:{portNumber}/api/calculator/calculate/10
   "Factorial": 0,
   "Reverse": 1
 }
-
+```
 ### Error Handling:
 
 If an error occurs during calculation, the API returns an appropriate HTTP status code and error message.
