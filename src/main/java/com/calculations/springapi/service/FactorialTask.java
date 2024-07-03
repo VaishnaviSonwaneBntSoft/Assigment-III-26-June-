@@ -1,7 +1,6 @@
 package com.calculations.springapi.service;
 
 import org.springframework.stereotype.Component;
-
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
